@@ -42,7 +42,7 @@ Lookup table for distribution presets.
 | Agus | 0 | 0 | 1 |
 | FF | 0.5 | 0.5 | 0 |
 
-Add any custom distribution here and it becomes available in the dropdown instantly.
+Add any preset here and it becomes available in the dropdown instantly. The reserved name `Custom` skips the auto-fill — selecting it leaves the partner columns free for manual entry.
 
 ## Setup
 

@@ -38,8 +38,9 @@ function onEdit(e) {
     var distName = distValues[i][0];
     if (!distName) continue;
 
+    if (distName === "Custom") continue; // entrada manual, no tocar
     var props = distMap[distName];
-    if (!props) continue; // nombre no encontrado → no tocar (permite entrada manual)
+    if (!props) continue;
 
     sheet.getRange(row, COL.FRAN, 1, 3).setValues([[props.fran, props.facu, props.agus]]);
   }
